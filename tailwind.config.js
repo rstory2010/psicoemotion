@@ -5,11 +5,15 @@ module.exports = {
   darkMode: 'media',
   theme: {
     extend: {
+      backgroundImage:(theme) => ({
+        'papel': "url('./assets/img02.png')",
+      }),
       colors: {
         'morado': '#6a214c',
-        'verde': '#7B9C5F'
+        'verde': '#7B9C5F',
+        'whatsapp': '#075E54',
+        'whatsappBase': '#ECE5DD'
       },
-
     },
   },
   plugins: [
