@@ -2,7 +2,7 @@ import Header from './components/header'
 import Footer from './components/footer'
 import img01 from './assets/img01.jpg'
 import img03 from './assets/img03.png'
-import WhatsApp from './components/whatsapp'
+import { Icon } from '@iconify/react';
 
 function App() {
   return (
@@ -33,9 +33,10 @@ function App() {
 
             <div className='flex justify-center'>
               <div className='relative'>
-              <a href='https://wa.me/584244088235?text=Estoy%20interesado%20en%20el%20curso' className='bg-whatsappBase rounded-md border-2 border-gray-300 m-1 flex flew-row items-center p-3 shadow-lg relative'>
-                  <WhatsApp className='fill-whatsapp h-16 w-16 mr-2' />
-                  <p className='font-extrabold text-3xl'>Regístrate en el Curso</p>
+              <a href='https://wa.me/584244088235?text=Estoy%20interesado%20en%20el%20curso' 
+                className='bg-whatsappBase rounded-md border-2 border-gray-300 m-1 flex flew-row items-center justify-center w-72 p-3 shadow-lg relative'>
+                  <Icon icon="logos:whatsapp" className='h-16 w-16 mr-2' />
+                  <span className='font-extrabold text-3xl text-whatsapp'>Regístrate</span>
               </a>
               <div className='absolute top-0 right-0 -mr-1 -mt w-4 h-4 rounded-full bg-whatsapp animate-ping'></div>
               <div className='absolute top-0 right-0 -mr-1 -mt w-4 h-4 rounded-full bg-whatsapp'></div>
