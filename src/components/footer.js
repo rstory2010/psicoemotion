@@ -47,7 +47,8 @@ function Footer() {
                     <img src={photo} alt="foto" className="h-40 w-auto md:h-32 m-2" />
                     <span>©2022 by</span>
                     <strong>Psic. Alejandra Rodríguez | PsicoEmotion</strong>
-                    <span>C.C. Concepto La Granja, Torre Servicios Médicos, Consultorio 2-16</span>
+                    <span>C.C. Concepto La Granja</span>
+                    <span>Torre Serv Médicos, Consult. 2-16</span>
                     <span>Naguanagua - Venezuela - Cod. Postal 2005</span>
                 </div>
             </div>

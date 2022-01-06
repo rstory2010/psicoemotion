@@ -12,7 +12,10 @@ module.exports = {
         'morado': '#6a214c',
         'verde': '#7B9C5F',
         'whatsapp': '#075E54',
-        'whatsappBase': '#ECE5DD'
+        'whatsappBase': '#ECE5DD',
+        'telegram': '#0088cc',
+        'zoom': '#2D8CFF'
+
       },
     },
   },
