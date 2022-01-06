@@ -13,7 +13,9 @@ function App() {
       <div className='h-90 bg-gray-100 w-full p-3 flex flex-col items-center'>
         <h1 className='text-morado text-4xl font-bold mt-16'>Psicoemotion</h1>
         <p className='font-bold italic mb-16'>Psic. Alejandra Rodríguez</p>
-        <img src={img01} alt='Imagen' className='w-80 h-48 p-1 ml-9 md:ml-0 text-center bg-white shadow-lg shadow-gray-500/50 outline outline-offset-4 outline-4 outline-gray-500 origin-bottom -rotate-12' />
+        <div className='flex justify-center mb-4'>
+          <img src={img01} alt='Imagen' className='w-80 h-48 p-1 ml-9 md:ml-0 text-center bg-white shadow-lg shadow-gray-500/50 outline outline-offset-4 outline-4 outline-gray-500 origin-bottom -rotate-12' />
+        </div>
         <div className="mt-10 prose prose-slate mx-auto lg:prose-lg">
             <h1>Amor Propio: Descúbrete, Acéptate y Transfómate</h1>
             <p className="lead">Entrenamiento de 30 días</p>

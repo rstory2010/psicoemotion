@@ -44,11 +44,11 @@ function Footer() {
         <div className="mx-auto p-6">
             <div className="w-full mt-8 border-t-2 border-gray-300 ">
                 <div className="flex flex-col items-center text-sm text-white">
-                    <img src={photo} alt="foto" className="h-40 w-auto md:h-32" />
+                    <img src={photo} alt="foto" className="h-40 w-auto md:h-32 m-2" />
                     <span>©2022 by</span>
                     <strong>Psic. Alejandra Rodríguez | PsicoEmotion</strong>
-                    <span>C.C. Concepto La Granja  - Valencia </span>
-                    <span>Venezuela</span>
+                    <span>C.C. Concepto La Granja, Torre Servicios Médicos, Consultorio 2-16</span>
+                    <span>Naguanagua - Venezuela - Cod. Postal 2005</span>
                 </div>
             </div>
         </div>
