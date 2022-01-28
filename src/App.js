@@ -17,7 +17,7 @@ function App() {
           <img src={img01} alt='Imagen' className='w-80 h-48 p-1 ml-9 md:ml-0 text-center bg-white shadow-lg shadow-gray-500/50 outline outline-offset-4 outline-4 outline-gray-500 origin-bottom -rotate-12' />
         </div>
         <div className="mt-10 prose prose-slate mx-auto lg:prose-lg">
-            <h1>Amor Propio: Descúbrete, Acéptate y Transfómate</h1>
+            <h1>Amor Propio: Descúbrete, Acéptate y Transfórmate</h1>
             <p className="lead">Entrenamiento de 30 días</p>
             <p>A lo largo de mi práctica profesional he podido ver como muchas personas se quedan estancadas en vidas que no quieren, en estados emocionales negativos, con personas que no quieren, con trabajos que odian y dejando que su vida pase, mientras son infelices. </p>
             
